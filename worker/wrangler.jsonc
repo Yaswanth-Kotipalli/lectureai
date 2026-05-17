@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lecture-ai-worker",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat_v2"],
+  "main": "src/worker/index.ts",
+  "dev": {
+    "port": 8787
+  }
+}
